@@ -1,0 +1,10 @@
+Comment: This MANIFEST.MF is not used! A generated version from gradle is use instead defined in packaging.gradle file
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: osgi-base-ui-bundle
+Bundle-SymbolicName: io.github.astrapi69.osgi.base.ui.bundle
+Bundle-Version: 1.0.0-SNAPSHOT
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-Activator: io.github.astrapi69.osgi.base.ui.bundle.Activator
+Import-Package: org.osgi.framework
+

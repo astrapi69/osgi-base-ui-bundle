@@ -4,6 +4,9 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok:$lombokVersion")
     testCompileOnly("org.projectlombok:lombok:$lombokVersion")
     testAnnotationProcessor("org.projectlombok:lombok:$lombokVersion")
+    compileOnly("org.osgi:osgi.core:$osgiCoreVersion")
+    implementation("io.github.astrapi69:swing-base-components:$swingBaseComponentsVersion")
+
     testImplementation("io.github.astrapi69:silly-io:$sillyIoVersion")
     testImplementation("io.github.astrapi69:file-worker:$fileWorkerVersion")
     testImplementation("io.github.astrapi69:throwable:$throwableVersion")
