@@ -4,8 +4,8 @@ jar {
     manifest {
         attributes(
 
-                "Manifest-Version"                      : "1.0",
-                "Bundle-ManifestVersion"                : "2",
+                "Manifest-Version"                      : "$manifestVersion",
+                "Bundle-ManifestVersion"                : "$bundleManifestVersion",
                 "Bundle-Name"                           : project.name,
                 "Bundle-SymbolicName"                   : "$bundleSymbolicName",
                 "Bundle-Version"                        : "$bundleVersion",
